@@ -133,7 +133,7 @@ const Navbar = ({ onSelectCategory, onSearch }) => {
                 </li>
                 <li className="nav-item">
                   <a className="nav-link" href="/add_product">
-                    Add Product
+                    {/* Add Product */}
                   </a>
                 </li>
 
