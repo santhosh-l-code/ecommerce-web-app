@@ -130,7 +130,7 @@ const Product = () => {
           
           </div>
           <div className="update-button" style={{ display: "flex", gap: "1rem" }}>
-            <button
+            {/* <button
               className="btn btn-primary"
               type="button"
               onClick={handleEditClick}
@@ -145,9 +145,9 @@ const Product = () => {
               }}
             >
               Update
-            </button>
+            </button> */}
             {/* <UpdateProduct product={product} onUpdate={handleUpdate} /> */}
-            <button
+            {/* <button
               className="btn btn-primary"
               type="button"
               onClick={deleteProduct}
@@ -162,7 +162,7 @@ const Product = () => {
               }}
             >
               Delete
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
