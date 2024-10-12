@@ -34,7 +34,7 @@ const AddProduct = () => {
     );
 
     axios
-      .post("http://localhost:8080/api/product", formData, {
+      .post("http://ecommerce-server-production-63eb.up.railway.app/api/product", formData, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
